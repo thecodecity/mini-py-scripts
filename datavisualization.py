@@ -22,7 +22,7 @@ plt.legend()
 plt.grid(True)
 plt.savefig("sales_trend.png")  # Save as an image
 plt.show()
-
+plt.close()
 # **2. Bar Plot: Sales vs. Profit**
 sns.set_theme(style="whitegrid")
 plt.figure(figsize=(8, 5))
