@@ -12,6 +12,8 @@ data = {
 }
 df = pd.DataFrame(data)
 
+print('Hello World')
+
 # **1. Line Plot of Sales Trend**
 plt.figure(figsize=(8, 5))
 plt.plot(df["Month"], df["Sales"], marker="o", linestyle="-", color="b", label="Sales")
